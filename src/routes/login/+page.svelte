@@ -3,14 +3,14 @@
 </script>
 
 <div class="grid h-screen w-screen place-items-center">
-	<div class="grid gap-2">
+	<div class="grid gap-y-3">
 		<h1 class="mb-5 text-center text-3xl font-bold italic text-sky-500 drop-shadow-md">OpenBO</h1>
 
 		<div>
-			<FloatingInputField type="text" id="username" label="Username" className="mb-2"
-			></FloatingInputField>
-			<FloatingInputField type="password" id="password" label="Password" className="mb-1"
-			></FloatingInputField>
+			<div class="grid gap-y-3">
+				<FloatingInputField type="text" id="username" label="Username"></FloatingInputField>
+				<FloatingInputField type="password" id="password" label="Password"></FloatingInputField>
+			</div>
 			<a href="/forgot-password" class="float-right text-sm text-sky-500">Forgot pasword?</a>
 		</div>
 

@@ -3,7 +3,7 @@
 </script>
 
 <div class="grid h-screen w-screen place-items-center">
-	<div class="grid gap-y-2">
+	<div class="grid gap-y-3">
 		<h1 class="mb-5 text-center text-3xl font-bold italic text-sky-500 drop-shadow-md">OpenBO</h1>
 
 		<FloatingInputField type="text" id="fullname" label="Fullname"></FloatingInputField>
