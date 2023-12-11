@@ -12,6 +12,11 @@
 	/**
 	 * @type {String}
 	 */
+	export let name;
+
+	/**
+	 * @type {String}
+	 */
 	export let label;
 
 	/**
@@ -24,6 +29,7 @@
 	<input
 		{type}
 		{id}
+		{name}
 		class="{className} peer form-input w-64 rounded-md border border-gray-500 shadow-sm focus:border-sky-500 focus:outline-none focus:ring-0"
 		placeholder=""
 	/>
